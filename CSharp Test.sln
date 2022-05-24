@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Parenthesis Balancing", "1. Parenthesis Balancing", "{0E97DE07-84A6-41DC-8108-C0928FA76CFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Publish Subscribe", "2. Publish Subscribe", "{E44E7462-492D-473D-8676-C9DF4FDE7DCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Reverse", "3. Reverse", "{08F0E549-8F66-40DB-9169-A7341B504573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParenthesesBalancing", "ParenthesesBalancing\ParenthesesBalancing.csproj", "{587CC1FD-87FE-4439-AF66-1CD27A2E49DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParenthesesBalancing.UnitTests", "ParenthesesBalancing.UnitTests\ParenthesesBalancing.UnitTests.csproj", "{9D9606C8-C48F-437E-AF0F-FF8E4FD8A331}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Refactoring Geometrical Shapes", "4. Refactoring Geometrical Shapes", "{F0AFA1FC-0CB5-4CEC-9D9C-4A73152C22CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishSubscribe", "PublishSubscribe\PublishSubscribe.csproj", "{D473236A-4F44-4AAE-AD48-F4C6E6C63EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse", "Reverse\Reverse.csproj", "{974B12CB-6ED9-4D15-8A78-1AA39B9671BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse.UnitTests", "Reverse.UnitTests\Reverse.UnitTests.csproj", "{B469EBFF-BEEC-490F-96BE-23D0BE04D6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGeometricalShapes", "RefactoringGeometricalShapes\RefactoringGeometricalShapes.csproj", "{91413F89-3F3D-4950-A647-8C118ED7E5DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringGeometricalShapes.UnitTests", "RefactoringGeometricalShapes.UnitTests\RefactoringGeometricalShapes.UnitTests.csproj", "{84A236F7-BAE0-473D-8E1B-34A872039A07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Read This First", "0. Read This First", "{49860002-95F2-428A-9EA1-3D020EAFA70C}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{587CC1FD-87FE-4439-AF66-1CD27A2E49DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587CC1FD-87FE-4439-AF66-1CD27A2E49DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587CC1FD-87FE-4439-AF66-1CD27A2E49DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587CC1FD-87FE-4439-AF66-1CD27A2E49DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D9606C8-C48F-437E-AF0F-FF8E4FD8A331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D9606C8-C48F-437E-AF0F-FF8E4FD8A331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D9606C8-C48F-437E-AF0F-FF8E4FD8A331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D9606C8-C48F-437E-AF0F-FF8E4FD8A331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D473236A-4F44-4AAE-AD48-F4C6E6C63EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D473236A-4F44-4AAE-AD48-F4C6E6C63EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D473236A-4F44-4AAE-AD48-F4C6E6C63EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D473236A-4F44-4AAE-AD48-F4C6E6C63EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974B12CB-6ED9-4D15-8A78-1AA39B9671BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974B12CB-6ED9-4D15-8A78-1AA39B9671BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974B12CB-6ED9-4D15-8A78-1AA39B9671BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974B12CB-6ED9-4D15-8A78-1AA39B9671BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B469EBFF-BEEC-490F-96BE-23D0BE04D6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B469EBFF-BEEC-490F-96BE-23D0BE04D6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B469EBFF-BEEC-490F-96BE-23D0BE04D6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B469EBFF-BEEC-490F-96BE-23D0BE04D6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91413F89-3F3D-4950-A647-8C118ED7E5DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91413F89-3F3D-4950-A647-8C118ED7E5DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91413F89-3F3D-4950-A647-8C118ED7E5DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91413F89-3F3D-4950-A647-8C118ED7E5DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A236F7-BAE0-473D-8E1B-34A872039A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A236F7-BAE0-473D-8E1B-34A872039A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A236F7-BAE0-473D-8E1B-34A872039A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A236F7-BAE0-473D-8E1B-34A872039A07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{587CC1FD-87FE-4439-AF66-1CD27A2E49DC} = {0E97DE07-84A6-41DC-8108-C0928FA76CFE}
+		{9D9606C8-C48F-437E-AF0F-FF8E4FD8A331} = {0E97DE07-84A6-41DC-8108-C0928FA76CFE}
+		{D473236A-4F44-4AAE-AD48-F4C6E6C63EFA} = {E44E7462-492D-473D-8676-C9DF4FDE7DCF}
+		{974B12CB-6ED9-4D15-8A78-1AA39B9671BD} = {08F0E549-8F66-40DB-9169-A7341B504573}
+		{B469EBFF-BEEC-490F-96BE-23D0BE04D6E1} = {08F0E549-8F66-40DB-9169-A7341B504573}
+		{91413F89-3F3D-4950-A647-8C118ED7E5DA} = {F0AFA1FC-0CB5-4CEC-9D9C-4A73152C22CF}
+		{84A236F7-BAE0-473D-8E1B-34A872039A07} = {F0AFA1FC-0CB5-4CEC-9D9C-4A73152C22CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {030DD137-1010-4707-8339-85DA558533DF}
+	EndGlobalSection
+EndGlobal
